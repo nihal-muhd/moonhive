@@ -1,0 +1,49 @@
+.adminLogin{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /* background-color: rgb(255, 255, 255); */
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+.adminLogin-left{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.adminLogin-right{
+ /* border-style: solid; */
+ border-width: 1px;
+ border-radius: 10px;
+ padding: 5rem;
+ background-color: rgb(208, 208, 208);
+}
+.adminLogin-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h3{
+    font-size: 20px;
+}
+.adminLogin-input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    border-radius: 8px;
+}
+.loginButton{
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, rgb(49, 0, 128), rgb(127, 106, 249));
+    cursor: pointer;
+}
+.loginButton:hover{
+    background-image: linear-gradient(180deg, rgb(201, 167, 255), rgb(142, 116, 255));
+}

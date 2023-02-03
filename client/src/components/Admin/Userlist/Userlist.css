@@ -1,0 +1,53 @@
+.userList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+   
+    margin-top: 1rem;
+}
+.userList-head{
+    font-weight: bold;
+}
+.userList-table{
+    margin-top: 2rem;
+    width: 100%;
+}
+.userList-table>table{
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.userList-table>table>tr>th{
+    background-color: #d29393;
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.userList-table>table>tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.userList-table>table>tr>td{
+    text-align: center;
+}
+.userList-addUser{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.userList-button{
+    background-color: rgb(0, 168, 0);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+table{
+    width: 100%;
+}

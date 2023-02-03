@@ -1,0 +1,13 @@
+.adminhome-main{
+    display: grid;
+    grid-template-columns: 14rem auto ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+   
+}
+.adminhome-graph{
+    height: 1rem;
+    width: 30rem;
+    margin-left: 13rem;
+}

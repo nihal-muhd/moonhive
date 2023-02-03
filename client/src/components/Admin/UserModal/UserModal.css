@@ -1,0 +1,22 @@
+.add-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.add-input{
+    /* border: none; */
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    border-radius: 8px;
+}
+.add-button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
